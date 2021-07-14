@@ -28,4 +28,8 @@
       display: flex;
       justify-content: center;
     }
+
+    aside>*{
+      margin:0 5px;
+    }
   </style>
