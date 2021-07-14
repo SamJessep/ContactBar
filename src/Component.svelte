@@ -6,10 +6,11 @@
   
   export let theme = "dark"
   export let links = {}
+  export let height = "5vh"
   
   const selectedTheme = Themes[theme]
   </script>
-  <aside style={"background-color:"+selectedTheme.background+";"}>
+  <aside style={"background-color:"+selectedTheme.background+"; height: "+height+";"}>
     {#if Object.keys(links).includes("twitter")}
       <TwitterLink color={selectedTheme.color} link={links.twitter}/>
     {/if}
