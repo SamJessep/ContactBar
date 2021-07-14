@@ -29,7 +29,7 @@
       justify-content: center;
     }
 
-    aside>*{
-      margin:0 5px;
+    :global(a){
+      margin: 0 min(5%, 5px);
     }
   </style>
