@@ -26,7 +26,7 @@
     div.icon-container{
       max-height: 100%;
       width:100%;
-      margin: 0.5rem 0;
+      padding: 0.5rem 0;
       display: flex;
       justify-content: center;
     }
