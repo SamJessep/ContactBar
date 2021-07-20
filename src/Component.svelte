@@ -10,7 +10,7 @@
   
   const selectedTheme = Themes[theme]
   </script>
-  <aside style={"background-color:"+selectedTheme.background+"; height: "+height+";"}>
+  <div class="icon-container" style={"background-color:"+selectedTheme.background+"; height: "+height+";"}>
     {#if Object.keys(links).includes("twitter")}
       <TwitterLink color={selectedTheme.color} link={links.twitter}/>
     {/if}
@@ -20,12 +20,13 @@
     {#if Object.keys(links).includes("linkedin")}
       <LinkedinLink color={selectedTheme.color} link={links.linkedin}/>
     {/if}
-  </aside>
+  </div>
   
   <style>
-    aside{
+    div.icon-container{
+      max-height: 100%;
       width:100%;
-      height: 65px;
+      margin: 0.5rem 0;
       display: flex;
       justify-content: center;
     }
