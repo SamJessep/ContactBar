@@ -16,7 +16,7 @@
   }
 
   a{
-    outline: none;
+    -webkit-tap-highlight-color: transparent;
   }
 </style>
 
