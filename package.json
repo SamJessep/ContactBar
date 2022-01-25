@@ -20,7 +20,7 @@
     "src",
     "dist"
   ],
-  "description": "*Psst — looking for an app template? Go here --> [sveltejs/template](https://github.com/sveltejs/template)*",
+  "description": "Contact bar for my web apps",
   "version": "1.0.0",
   "dependencies": {},
   "author": "Sam Jessep",

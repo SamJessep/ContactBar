@@ -15,4 +15,8 @@
   a:hover svg, a:focus svg{
     fill: var(--ContactBar-GithubLink-Hover, grey);
   }
+
+  a{
+    outline: none;
+  }
 </style>

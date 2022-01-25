@@ -14,6 +14,10 @@
   a:hover svg{
     fill: var(--ContactBar-LinkedinLink-Hover, #1DA1F2);
   }
+
+  a{
+    outline: none;
+  }
 </style>
 
 

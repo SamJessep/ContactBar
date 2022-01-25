@@ -14,4 +14,8 @@
   a:hover svg, a:focus svg{
     fill: var(--ContactBar-TwitterLink-Hover, #1DA1F2);
   }
+
+  a{
+    outline: none;
+  }
 </style>
