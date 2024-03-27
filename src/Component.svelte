@@ -33,5 +33,7 @@
 
     :global(a){
       margin: 0 min(5%, 5px);
+      display: contents;
+      -webkit-tap-highlight-color: transparent;
     }
   </style>

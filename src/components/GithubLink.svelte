@@ -15,8 +15,4 @@
   a:hover svg, a:focus svg{
     fill: var(--ContactBar-GithubLink-Hover, grey);
   }
-
-  a{
-    -webkit-tap-highlight-color: transparent;
-  }
 </style>

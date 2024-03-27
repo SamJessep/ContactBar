@@ -11,12 +11,8 @@
 </a>
 
 <style>
-  a:hover svg{
+  a:hover svg, a:focus svg{
     fill: var(--ContactBar-LinkedinLink-Hover, #1DA1F2);
-  }
-
-  a{
-    -webkit-tap-highlight-color: transparent;
   }
 </style>
 
