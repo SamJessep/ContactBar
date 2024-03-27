@@ -29,11 +29,6 @@
       padding: 0.5rem 0;
       display: flex;
       justify-content: center;
-    }
-
-    :global(a){
-      margin: 0 min(5%, 5px);
-      display: contents;
-      -webkit-tap-highlight-color: transparent;
+      gap: 1rem;
     }
   </style>
